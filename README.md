@@ -68,9 +68,8 @@ Install these via your package manager (e.g., `sudo pacman -S qtile rofi feh pic
 ---
 
 ### Desktop Image (Qtile)
+<img width="1915" height="1080" alt="image" src="https://github.com/user-attachments/assets/9c553ac0-80ec-4b54-a71a-06271232e004" />
 
-![Your Qtile Desktop Screenshot Here](path/to/your/qtile_screenshot.png)
-*(Don't forget to replace this placeholder with an actual screenshot of your Qtile desktop!)*
 
 ---
 
