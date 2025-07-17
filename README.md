@@ -33,9 +33,8 @@ Install these via your package manager (e.g., `sudo pacman -S qtile rofi feh pic
 
 1.  **Clone this repo**:
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git) ~/.config/qtile
+    git clone [https://github.com/JoeHughes9877.git](https://github.com/JoeHughes9877/Qtile-config-files.git) ~/.config/qtile
     ```
-    *(Remember to replace `YOUR_USERNAME` and `YOUR_REPO_NAME` with your actual GitHub details.)*
 2.  **Set up `autostart.sh`**:
     Copy the example and make it executable:
     ```bash
