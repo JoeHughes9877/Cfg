@@ -1,81 +1,142 @@
-# My Dotfiles
+My Dotfiles
 
-This repo is to hold the dot files for the linux WM i have tried out 
+This repo is to hold the dot files for the linux WM i have tried out
+Table of Contents
 
----
+    Qtile
 
-## Qtile
+        Qtile Dependencies
 
-### Dependencies
+        Qtile Installation
+
+        Qtile Keybindings
+
+        Desktop Image (Qtile)
+
+    Hyprland
+
+        Hyprland Dependencies
+
+        Hyprland Installation
+
+        Hyprland Keybindings
+
+        Desktop Image (Hyprland)
+
+    License
+
+Qtile
+Qtile Dependencies
 
 To run this Qtile setup, you'll need:
 
-* **Qtile**
-* **Rofi**
-* **feh**
-* **picom** (with config at `~/.config/picom/picom.conf`)
-* **JetBrainsMono Nerd Font**
-* `xrandr`
+    Qtile
 
-Install these via your package manager (e.g., `sudo pacman -S qtile rofi feh picom xorg-xrandr ttf-jetbrains-mono-nerd`).
+    Rofi
 
-### Installation
+    feh
 
-1.  **Clone this repo**:
-    ```bash
-    git clone [https://github.com/JoeHughes9877.git](https://github.com/JoeHughes9877/Qtile-config-files.git) ~/.config/qtile
-    ```
-2.  **Set up `autostart.sh`**:
+    picom (with config at ~/.config/picom/picom.conf)
+
+    JetBrainsMono Nerd Font
+
+    xrandr
+
+Install these via your package manager (e.g., sudo pacman -S qtile rofi feh picom xorg-xrandr ttf-jetbrains-mono-nerd).
+Qtile Installation
+
+    Clone this repo:
+
+    git clone https://github.com/JoeHughes9877/Qtile-config-files.git ~/.config/qtile
+
+    Set up autostart.sh:
     Copy the example and make it executable:
-    ```bash
+
     cp ~/.config/qtile/autostart.sh.example ~/.config/qtile/autostart.sh
     chmod +x ~/.config/qtile/autostart.sh
-    ```
-    **Edit `~/.config/qtile/autostart.sh`** for your monitor setup and wallpaper path.
-3.  **Log in**: Select "Qtile" from your display manager.
 
-### Keybindings
+    Edit ~/.config/qtile/autostart.sh for your monitor setup and wallpaper path.
 
-`Mod` refers to the Super (Windows) key.
+    Log in: Select "Qtile" from your display manager.
 
-| Keybinding | Description |
-| :----------------------------- | :------------------------------------------------ |
-| `Mod + Left/Right/Down/Up` | Move focus |
-| `Mod + Shift + Left/Right/Down/Up` | Move window |
-| `Mod + Control + h/l/j/k` | Grow/shrink window |
-| `Mod + d` | Launch Rofi |
-| `Mod + Return` | Launch terminal |
-| `Mod + Tab` | Toggle layouts |
-| `Mod + q` | Kill focused window |
-| `Mod + f` | Toggle fullscreen |
-| `Mod + t` | Toggle floating |
-| `Mod + Control + r` | Reload Qtile config |
-| `Mod + Control + q` | Shutdown Qtile |
-| `Mod + [1-9]` | Switch to workspace |
-| `Mod + Shift + [1-9]` | Move window to workspace & switch |
+Qtile Keybindings
 
----
+Mod refers to the Super (Windows) key.
 
-### Desktop Image (Qtile)
-<img width="1920" height="1080" alt="image (1)" src="https://github.com/user-attachments/assets/033c96d5-9de2-499a-96ad-c9b80b695113" />
+Keybinding
+	
 
+Description
 
+Mod + Left/Right/Down/Up
+	
 
----
+Move focus
 
-## Hyprland
+Mod + Shift + Left/Right/Down/Up
+	
 
-Hers my hyprland dotfiles, i didnt enjoy the wayland experiance too many bugs. 
+Move window
 
-    Dependencies
+Mod + Control + h/l/j/k
+	
 
-    Installation
+Grow/shrink window
 
-    Keybindings
+Mod + d
+	
 
-    Desktop Image
+Launch Rofi
 
-Dependencies
+Mod + Return
+	
+
+Launch terminal
+
+Mod + Tab
+	
+
+Toggle layouts
+
+Mod + q
+	
+
+Kill focused window
+
+Mod + f
+	
+
+Toggle fullscreen
+
+Mod + t
+	
+
+Toggle floating
+
+Mod + Control + r
+	
+
+Reload Qtile config
+
+Mod + Control + q
+	
+
+Shutdown Qtile
+
+Mod + [1-9]
+	
+
+Switch to workspace
+
+Mod + Shift + [1-9]
+	
+
+Move window to workspace & switch
+Desktop Image (Qtile)
+Hyprland
+
+Here's my Hyprland dotfiles, I didn't enjoy the Wayland experience, too many bugs.
+Hyprland Dependencies
 
 Before you begin, ensure you have the following installed on your system:
 
@@ -103,7 +164,7 @@ Before you begin, ensure you have the following installed on your system:
 
     JetBrainsMono Nerd Font (or your preferred Nerd Font)
 
-Installation
+Hyprland Installation
 Cloning the Repository
 
 git clone https://github.com/your-username/your-hyprland-dotfiles.git ~/.config/hypr-dotfiles
@@ -130,7 +191,7 @@ This repository typically contains the following key configuration files. You wi
     cp ~/.config/hypr-dotfiles/style.css ~/.config/waybar/style.css
 
 Note: Make sure to adjust paths in hyprland.conf and autoscript.sh if you place them in different locations. Specifically, the exec-once = ~/.config/hypr/autoscript.sh line in hyprland.conf should point to the correct location of your autoscript.sh. Also, ensure your wallpaper path in autoscript.sh (~/Pictures/wallpaper.jpg) is correct.
-Keybindings
+Hyprland Keybindings
 
 My Hyprland configuration uses the SUPER key ($mainMod) as the main modifier.
 
@@ -189,12 +250,31 @@ resizeactive 10 0
 	
 
 Resizes active window width by +10
-Desktop Image
+Desktop Image (Hyprland)
 
 Here are some images of my Hyprland setup:
 
----
+Main Desktop
+	
 
-## License
+Experimental
+	
 
-This project is open-source under the [MIT License](LICENSE).
+Line
+	
+
+Zen
+
+
+	
+
+
+	
+
+
+	
+
+
+License
+
+This project is open-source under the MIT License.
