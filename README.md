@@ -1,141 +1,73 @@
-My Dotfiles
+# My Dotfiles
 
-This repo is to hold the dot files for the linux WM i have tried out
-Table of Contents
+This repository contains the dotfiles for the Linux window managers (WM) I've tried out.
 
-    Qtile
+## Table of Contents
 
-        Qtile Dependencies
+- [Qtile](#qtile)
+  - [Qtile Dependencies](#qtile-dependencies)
+  - [Qtile Installation](#qtile-installation)
+  - [Qtile Keybindings](#qtile-keybindings)
+- [Hyprland](#hyprland)
+  - [Hyprland Dependencies](#hyprland-dependencies)
+  - [Hyprland Installation](#hyprland-installation)
+  - [Hyprland Keybindings](#hyprland-keybindings)
 
-        Qtile Installation
+---
 
-        Qtile Keybindings
+## Qtile
 
-        Desktop Image (Qtile)
-
-    Hyprland
-
-        Hyprland Dependencies
-
-        Hyprland Installation
-
-        Hyprland Keybindings
-
-        Desktop Image (Hyprland)
-
-    License
-
-Qtile
-Qtile Dependencies
+### Qtile Dependencies
 
 To run this Qtile setup, you'll need:
 
-    Qtile
+- `Qtile`
+- `Rofi`
+- `feh`
+- `picom` (with config at `~/.config/picom/picom.conf`)
+- `JetBrainsMono Nerd Font`
+- `xrandr`
 
-    Rofi
+Install these via your package manager:
 
-    feh
+```bash
+sudo pacman -S qtile rofi feh picom xorg-xrandr ttf-jetbrains-mono-nerd
 
-    picom (with config at ~/.config/picom/picom.conf)
-
-    JetBrainsMono Nerd Font
-
-    xrandr
-
-Install these via your package manager (e.g., sudo pacman -S qtile rofi feh picom xorg-xrandr ttf-jetbrains-mono-nerd).
 Qtile Installation
 
     Clone this repo:
 
-    git clone https://github.com/JoeHughes9877/Qtile-config-files.git ~/.config/qtile
+git clone https://github.com/JoeHughes9877/Qtile-config-files.git ~/.config/qtile
 
-    Set up autostart.sh:
+Set up autostart.sh:
+
     Copy the example and make it executable:
 
     cp ~/.config/qtile/autostart.sh.example ~/.config/qtile/autostart.sh
     chmod +x ~/.config/qtile/autostart.sh
 
-    Edit ~/.config/qtile/autostart.sh for your monitor setup and wallpaper path.
+        Edit ~/.config/qtile/autostart.sh for your monitor setup and wallpaper path.
 
-    Log in: Select "Qtile" from your display manager.
+    Log in and select "Qtile" from your display manager.
 
 Qtile Keybindings
 
 Mod refers to the Super (Windows) key.
-
-Keybinding
-	
-
-Description
-
-Mod + Left/Right/Down/Up
-	
-
-Move focus
-
-Mod + Shift + Left/Right/Down/Up
-	
-
-Move window
-
-Mod + Control + h/l/j/k
-	
-
-Grow/shrink window
-
-Mod + d
-	
-
-Launch Rofi
-
-Mod + Return
-	
-
-Launch terminal
-
-Mod + Tab
-	
-
-Toggle layouts
-
-Mod + q
-	
-
-Kill focused window
-
-Mod + f
-	
-
-Toggle fullscreen
-
-Mod + t
-	
-
-Toggle floating
-
-Mod + Control + r
-	
-
-Reload Qtile config
-
-Mod + Control + q
-	
-
-Shutdown Qtile
-
-Mod + [1-9]
-	
-
-Switch to workspace
-
-Mod + Shift + [1-9]
-	
-
-Move window to workspace & switch
-Desktop Image (Qtile)
+Keybinding	Description
+Mod + Left/Right/Down/Up	Move focus
+Mod + Shift + Left/Right/Down/Up	Move window
+Mod + Control + h/l/j/k	Grow/shrink window
+Mod + d	Launch Rofi
+Mod + Return	Launch terminal
+Mod + Tab	Toggle layouts
+Mod + q	Kill focused window
+Mod + f	Toggle fullscreen
+Mod + t	Toggle floating
+Mod + Control + r	Reload Qtile config
+Mod + Control + q	Shutdown Qtile
+Mod + [1-9]	Switch to workspace
+Mod + Shift + [1-9]	Move window to workspace & switch
 Hyprland
-
-Here's my Hyprland dotfiles, I didn't enjoy the Wayland experience, too many bugs.
 Hyprland Dependencies
 
 Before you begin, ensure you have the following installed on your system:
@@ -171,22 +103,22 @@ git clone https://github.com/your-username/your-hyprland-dotfiles.git ~/.config/
 
 Configuration Files
 
-This repository typically contains the following key configuration files. You will need to symlink or copy these to their respective locations.
+This repository typically contains the following key configuration files. You will need to symlink or copy these to their respective locations:
 
     hyprland.conf: The main Hyprland configuration file.
 
-    cp ~/.config/hypr-dotfiles/hyprland.conf ~/.config/hypr/hyprland.conf
+cp ~/.config/hypr-dotfiles/hyprland.conf ~/.config/hypr/hyprland.conf
 
-    autoscript.sh: An autostart script for various applications.
+autoscript.sh: An autostart script for various applications.
 
-    cp ~/.config/hypr-dotfiles/autoscript.sh ~/.config/hypr/autoscript.sh
-    chmod +x ~/.config/hypr/autoscript.sh
+cp ~/.config/hypr-dotfiles/autoscript.sh ~/.config/hypr/autoscript.sh
+chmod +x ~/.config/hypr/autoscript.sh
 
-    config (Waybar): The Waybar configuration file.
+config (Waybar): The Waybar configuration file.
 
-    cp ~/.config/hypr-dotfiles/config ~/.config/waybar/config
+cp ~/.config/hypr-dotfiles/config ~/.config/waybar/config
 
-    style.css (Waybar): The Waybar styling file.
+style.css (Waybar): The Waybar styling file.
 
     cp ~/.config/hypr-dotfiles/style.css ~/.config/waybar/style.css
 
@@ -194,87 +126,10 @@ Note: Make sure to adjust paths in hyprland.conf and autoscript.sh if you place 
 Hyprland Keybindings
 
 My Hyprland configuration uses the SUPER key ($mainMod) as the main modifier.
-
-Keybinding
-	
-
-Action
-	
-
-Description
-
-$mainMod + F
-	
-
-fullscreen
-	
-
-Toggles fullscreen for the active window
-
-$mainMod + SPACE
-	
-
-exec wofi --show drun
-	
-
-Launches Wofi in drun mode
-
-$mainMod + SHIFT + Up
-	
-
-resizeactive 0 10
-	
-
-Resizes active window height by +10
-
-$mainMod + SHIFT + Down
-	
-
-resizeactive 0 -10
-	
-
-Resizes active window height by -10
-
-$mainMod + SHIFT + Left
-	
-
-resizeactive -10 0
-	
-
-Resizes active window width by -10
-
-$mainMod + SHIFT + Right
-	
-
-resizeactive 10 0
-	
-
-Resizes active window width by +10
-Desktop Image (Hyprland)
-
-Here are some images of my Hyprland setup:
-
-Main Desktop
-	
-
-Experimental
-	
-
-Line
-	
-
-Zen
-
-
-	
-
-
-	
-
-
-	
-
-
-License
-
-This project is open-source under the MIT License.
+Keybinding	Action	Description
+$mainMod + F	fullscreen	Toggles fullscreen for the active window
+$mainMod + SPACE	exec wofi --show drun	Launches Wofi in drun mode
+$mainMod + SHIFT + Up	resizeactive 0 10	Resizes active window height by +10
+$mainMod + SHIFT + Down	resizeactive 0 -10	Resizes active window height by -10
+$mainMod + SHIFT + Left	resizeactive -10 0	Resizes active window width by -10
+$mainMod + SHIFT + Right	resizeactive 10 0	Resizes active window width by +10
