@@ -1,20 +1,10 @@
-# My Dotfiles Qtile
+# My Dotfiles
 
-This repo holds my current **Qtile configuration**, set up for a clean and efficient tiling window manager experience.
-
-I'm using Qtile now, but I plan an eventual switch to **Hyprland** for my Wayland setup. This repo will get updated when that transition happens.
+This repo is to hold the dot files for the linux WM i have tried out 
 
 ---
 
-## Current Setup: Qtile
-
-### Features
-
-* **Custom Keybindings**: Efficient controls for windows, apps, and system.
-* **Dynamic Top Bar**: Displays workspaces, active window name, clock, and system tray.
-* **Rofi Integration**: Quick app launching via `rofi -show drun`.
-* **Auto-Startup**: `autostart.sh` sets up monitors, wallpaper, and starts `picom`.
-* **Themed Layouts**: Custom colors and margins for `Columns` and `Tile` layouts.
+## Qtile
 
 ### Dependencies
 
@@ -73,9 +63,135 @@ Install these via your package manager (e.g., `sudo pacman -S qtile rofi feh pic
 
 ---
 
-## Future: Hyprland
+## Hyprland
 
-I'll be moving to **Hyprland** for a native Wayland experience. This section will be updated with Hyprland configs and details when I make the switch.
+Hers my hyprland dotfiles, i didnt enjoy the wayland experiance too many bugs. 
+
+    Dependencies
+
+    Installation
+
+    Keybindings
+
+    Desktop Image
+
+Dependencies
+
+Before you begin, ensure you have the following installed on your system:
+
+    Hyprland
+
+    Waybar
+
+    Kitty
+
+    Dolphin
+
+    Wofi
+
+    Swww
+
+    Flameshot
+
+    wpctl (for audio control, part of PipeWire)
+
+    brightnessctl (for screen brightness control)
+
+    playerctl (for media player control)
+
+    grep, awk, free (standard Linux utilities)
+
+    JetBrainsMono Nerd Font (or your preferred Nerd Font)
+
+Installation
+Cloning the Repository
+
+git clone https://github.com/your-username/your-hyprland-dotfiles.git ~/.config/hypr-dotfiles
+
+Configuration Files
+
+This repository typically contains the following key configuration files. You will need to symlink or copy these to their respective locations.
+
+    hyprland.conf: The main Hyprland configuration file.
+
+    cp ~/.config/hypr-dotfiles/hyprland.conf ~/.config/hypr/hyprland.conf
+
+    autoscript.sh: An autostart script for various applications.
+
+    cp ~/.config/hypr-dotfiles/autoscript.sh ~/.config/hypr/autoscript.sh
+    chmod +x ~/.config/hypr/autoscript.sh
+
+    config (Waybar): The Waybar configuration file.
+
+    cp ~/.config/hypr-dotfiles/config ~/.config/waybar/config
+
+    style.css (Waybar): The Waybar styling file.
+
+    cp ~/.config/hypr-dotfiles/style.css ~/.config/waybar/style.css
+
+Note: Make sure to adjust paths in hyprland.conf and autoscript.sh if you place them in different locations. Specifically, the exec-once = ~/.config/hypr/autoscript.sh line in hyprland.conf should point to the correct location of your autoscript.sh. Also, ensure your wallpaper path in autoscript.sh (~/Pictures/wallpaper.jpg) is correct.
+Keybindings
+
+My Hyprland configuration uses the SUPER key ($mainMod) as the main modifier.
+
+Keybinding
+	
+
+Action
+	
+
+Description
+
+$mainMod + F
+	
+
+fullscreen
+	
+
+Toggles fullscreen for the active window
+
+$mainMod + SPACE
+	
+
+exec wofi --show drun
+	
+
+Launches Wofi in drun mode
+
+$mainMod + SHIFT + Up
+	
+
+resizeactive 0 10
+	
+
+Resizes active window height by +10
+
+$mainMod + SHIFT + Down
+	
+
+resizeactive 0 -10
+	
+
+Resizes active window height by -10
+
+$mainMod + SHIFT + Left
+	
+
+resizeactive -10 0
+	
+
+Resizes active window width by -10
+
+$mainMod + SHIFT + Right
+	
+
+resizeactive 10 0
+	
+
+Resizes active window width by +10
+Desktop Image
+
+Here are some images of my Hyprland setup:
 
 ---
 
