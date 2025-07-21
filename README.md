@@ -47,6 +47,9 @@ Mod refers to the Super (Windows) key.
 | Mod + [1-9]                           | Switch to workspace                |
 | Mod + Shift + [1-9]                   | Move window to workspace & switch  |
 
+## qtile desktop
+**<img width="1920" height="1080" alt="image (1)" src="https://github.com/user-attachments/assets/033c96d5-9de2-499a-96ad-c9b80b695113" />**
+
 ## Hyprland
 
 Here's my Hyprland dotfiles, I didn't enjoy the Wayland experience, too many bugs.
