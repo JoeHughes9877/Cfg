@@ -84,7 +84,7 @@ My Hyprland configuration uses the SUPER key ($mainMod) as the main modifier.
 | $mainMod + SHIFT + Left               | resizeactive -10 0                           | Resizes active window width by -10       |
 | $mainMod + SHIFT + Right              | resizeactive 10 0                            | Resizes active window width by +10       |
 
-##hyperland desktop
+## hyperland desktop
 <img width="2547" height="1401" alt="T1mZziD" src="https://github.com/user-attachments/assets/36aaee4e-9693-48e7-a42d-efca3b32ce66" />
 
 ## License
