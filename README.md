@@ -87,6 +87,42 @@ My Hyprland configuration uses the SUPER key ($mainMod) as the main modifier.
 ## hyperland desktop
 <img width="2547" height="1401" alt="T1mZziD" src="https://github.com/user-attachments/assets/36aaee4e-9693-48e7-a42d-efca3b32ce66" />
 
+## I3-Desktop
+
+My current i3 config for my desktop
+
+### I3 Dependencies
+
+Before you begin, ensure you have the following installed on your system:
+
+- polybar
+- alacritty
+- Thubar
+- Rofi
+- Flameshot
+- wpctl (for audio control, part of PipeWire)
+- brightnessctl (for screen brightness control)
+- playerctl (for media player control)
+- grep, awk, free (standard Linux utilities)
+- JetBrainsMono Nerd Font (or your preferred Nerd Font)
+
+### Hyprland Keybindings
+
+My Hyprland configuration uses the SUPER key ($mainMod) as the main modifier.
+
+| Keybinding        | Action                          | Description                       |
+|------------------|---------------------------------|-----------------------------------|
+| $mod+f           | fullscreen toggle               | Toggles fullscreen for the active window |
+| $mod+space       | exec --no-startup-id rofi -show run | Launches Rofi in run mode        |
+| $mod+Shift+Up    | move up                          | Moves the active window up        |
+| $mod+Shift+Down  | move down                        | Moves the active window down      |
+| $mod+Shift+Left  | move left                        | Moves the active window left      |
+| $mod+Shift+Right | move right                       | Moves the active window right     |
+
+
+## hyperland desktop
+<img width="2547" height="1401" alt="i3desktop" src="https://github.com/user-attachments/assets/af1262a6-ecb7-4465-821f-d1a624d9fbaa" />
+
 ## License
 
 This project is open-source under the MIT License.
