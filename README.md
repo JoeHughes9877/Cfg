@@ -61,15 +61,8 @@ Before you begin, ensure you have the following installed on your system:
 - Hyprland
 - Waybar
 - Kitty
-- Dolphin
 - Wofi
-- Swww
-- Flameshot
-- wpctl (for audio control, part of PipeWire)
-- brightnessctl (for screen brightness control)
-- playerctl (for media player control)
-- grep, awk, free (standard Linux utilities)
-- JetBrainsMono Nerd Font (or your preferred Nerd Font)
+- JetBrainsMono Nerd Font
 
 ### Hyprland Keybindings
 
@@ -97,14 +90,8 @@ Before you begin, ensure you have the following installed on your system:
 
 - polybar
 - alacritty
-- Thubar
 - Rofi
-- Flameshot
-- wpctl (for audio control, part of PipeWire)
-- brightnessctl (for screen brightness control)
-- playerctl (for media player control)
-- grep, awk, free (standard Linux utilities)
-- JetBrainsMono Nerd Font (or your preferred Nerd Font)
+- JetBrainsMono Nerd Font
 
 ### Hyprland Keybindings
 
