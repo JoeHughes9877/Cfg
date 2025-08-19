@@ -8,8 +8,8 @@ exec --no-startup-id picom --config ~/.config/picom/picom.conf
 exec_always --no-startup-id /usr/local/bin/autotiling
 exec_always --no-startup-id bash ~/.config/polybar/launch.sh --colorblocks
 
-client.focused          #D31C1C #000000 #FFFFFF #D31C1C #D31C1C
-client.focused_floating #D31C1C #000000 #FFFFFF #D31C1C #D31C1C
+client.focused          #D31C1C #0000aa #FFFFFF #D31C1C #D31C1C
+client.focused_floating #D31C1C #0000aa #FFFFFF #D31C1C #D31C1C
 
 
 
