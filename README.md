@@ -93,9 +93,9 @@ Before you begin, ensure you have the following installed on your system:
 - Rofi
 - JetBrainsMono Nerd Font
 
-### Hyprland Keybindings
+### I3 Keybindings
 
-My Hyprland configuration uses the SUPER key ($mainMod) as the main modifier.
+My i3 configuration uses the SUPER key ($mainMod) as the main modifier.
 
 | Keybinding        | Action                          | Description                       |
 |------------------|---------------------------------|-----------------------------------|
@@ -107,8 +107,37 @@ My Hyprland configuration uses the SUPER key ($mainMod) as the main modifier.
 | $mod+Shift+Right | move right                       | Moves the active window right     |
 
 
-## hyperland desktop
+## I3 desktop
 <img width="2547" height="1401" alt="i3desktop" src="https://github.com/user-attachments/assets/af1262a6-ecb7-4465-821f-d1a624d9fbaa" />
+
+## I3-Laptop
+
+My current i3 config for my desktop
+
+### I3 Dependencies
+
+Before you begin, ensure you have the following installed on your system:
+
+- polybar
+- alacritty
+- Rofi
+
+### I3 Keybindings
+
+My I3 configuration uses the SUPER key ($mainMod) as the main modifier.
+
+| Keybinding        | Action                          | Description                       |
+|------------------|---------------------------------|-----------------------------------|
+| $mod+f           | fullscreen toggle               | Toggles fullscreen for the active window |
+| $mod+space       | exec --no-startup-id rofi -show run | Launches Rofi in run mode        |
+| $mod+Shift+Up    | move up                          | Moves the active window up        |
+| $mod+Shift+Down  | move down                        | Moves the active window down      |
+| $mod+Shift+Left  | move left                        | Moves the active window left      |
+| $mod+Shift+Right | move right                       | Moves the active window right     |
+
+
+## I3 Laptop
+<img  width="2547" height="1401" alt="i3-desktop" src="https://github.com/user-attachments/assets/e4eb5177-8b8f-4251-9386-deda6eae2d10" />
 
 ## License
 
