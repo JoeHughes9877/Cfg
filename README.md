@@ -1,5 +1,4 @@
 # My Dotfiles
-
 This repo is to hold the dot files for the linux WM I have tried out
 
 ## Table of Contents
@@ -15,7 +14,6 @@ This repo is to hold the dot files for the linux WM I have tried out
 ## Qtile
 
 ### Qtile Dependencies
-
 To run this Qtile setup, you'll need:
 
 - Qtile
@@ -51,11 +49,9 @@ Mod refers to the Super (Windows) key.
 **<img width="1920" height="1080" alt="image (1)" src="https://github.com/user-attachments/assets/033c96d5-9de2-499a-96ad-c9b80b695113" />**
 
 ## Hyprland
-
 Here's my Hyprland dotfiles, I didn't enjoy the Wayland experience, too many bugs.
 
 ### Hyprland Dependencies
-
 Before you begin, ensure you have the following installed on your system:
 
 - Hyprland
@@ -111,11 +107,9 @@ My i3 configuration uses the SUPER key ($mainMod) as the main modifier.
 <img width="2547" height="1401" alt="i3desktop" src="https://github.com/user-attachments/assets/af1262a6-ecb7-4465-821f-d1a624d9fbaa" />
 
 ## I3-Laptop
-
 My current i3 config for my desktop
 
 ### I3 Dependencies
-
 Before you begin, ensure you have the following installed on your system:
 
 - polybar
@@ -123,7 +117,6 @@ Before you begin, ensure you have the following installed on your system:
 - Rofi
 
 ### I3 Keybindings
-
 My I3 configuration uses the SUPER key ($mainMod) as the main modifier.
 
 | Keybinding        | Action                          | Description                       |
@@ -140,5 +133,4 @@ My I3 configuration uses the SUPER key ($mainMod) as the main modifier.
 <img  width="2547" height="1401" alt="i3-desktop" src="https://github.com/user-attachments/assets/e4eb5177-8b8f-4251-9386-deda6eae2d10" />
 
 ## License
-
 This project is open-source under the MIT License.
