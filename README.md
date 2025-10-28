@@ -101,10 +101,12 @@ My i3 configuration uses the SUPER key ($mainMod) as the main modifier.
 | $mod+Shift+Down  | move down                        | Moves the active window down      |
 | $mod+Shift+Left  | move left                        | Moves the active window left      |
 | $mod+Shift+Right | move right                       | Moves the active window right     |
+| $mod+Shift+W     | change wallpaper                 | Flips through image in /home/usr/Pictures/wallpapers/     |
 
 
 ## I3 desktop
-<img width="2547" height="1401" alt="i3desktop" src="https://github.com/user-attachments/assets/af1262a6-ecb7-4465-821f-d1a624d9fbaa" />
+<img width="2547" height="1401" alt="i3-desktop" src="https://github.com/user-attachments/assets/1cb3c944-4112-425a-8ea3-56d2f0f623a3" />
+
 
 ## I3-Laptop
 My current i3 config for my desktop
